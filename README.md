@@ -5,8 +5,7 @@ A modern dark-mode portfolio website for showcasing my IT System Administration,
 ## 🚀 Live Demo
 
 ![Portfolio Preview](./assets/preview.gif)
-
-![Portfolio Preview](./assets/preview.png)
+[Live Demo](https://your-portfolio.vercel.app)
 
 ## 🛠️ Tech Stack
 
@@ -40,11 +39,11 @@ A modern dark-mode portfolio website for showcasing my IT System Administration,
 
 ## 📸 Preview
 
-Add screenshots here later.
+![Portfolio Preview](./assets/preview.png)
 
 ## 📬 Contact
 
-- LinkedIn: coming soon
+- LinkedIn: https://www.linkedin.com/in/neyugniat16072003/
 - GitHub: https://github.com/neyugniat
 
 ---
