@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nguyen Tai Nguyen — IT System & DevOps Fresher</title>
+<meta name="description" content="Portfolio of Nguyen Tai Nguyen — IT System Administrator & DevOps Fresher based in Ho Chi Minh City."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="logo"><span class="accent">$</span> nguyen<span class="accent">.</span>va</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">~/home</a>
+      <a href="#about">~/about</a>
+      <a href="#skills">~/skills</a>
+      <a href="#experience">~/experience</a>
+      <a href="#education">~/education</a>
+      <a href="#contact">~/contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="hero-tag"><span class="dot"></span> Available for opportunities</div>
+    <h1>
+      <span class="prompt">&gt;</span> Nguyen Tai Nguyen<br>
+      <span class="muted" style="font-size:.55em;font-weight:500">IT System &amp; DevOps Fresher<span class="cursor"></span></span>
+    </h1>
+    <p class="lead">Fresh IT graduate passionate about system infrastructure, automation, and keeping things running smoothly. Building reliable systems, one container at a time.</p>
+    <div class="meta-row">
+      <span><i class="fa-solid fa-location-dot"></i>Ho Chi Minh City, Vietnam</span>
+      <span><i class="fa-solid fa-envelope"></i>nguyentainguyen16072003@email.com</span>
+      <span><i class="fa-solid fa-circle-check"></i>Open to relocate</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#experience"><i class="fa-solid fa-folder-open"></i> View Projects</a>
+      <a class="btn btn-ghost"
+        href="./assets/IT_Support-Nguyen_Tai_Nguyen.pdf"
+        target="_blank">
+        <i class="fa-solid fa-eye"></i> View CV
+      </a>
+      <a class="btn btn-ghost"
+        href="./assets/IT_Support-Nguyen_Tai_Nguyen.pdf"
+        download>
+        <i class="fa-solid fa-download"></i> Download CV
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="label">01. about</div>
+      <h2>whoami</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <p>Fresh IT graduate passionate about system infrastructure, automation, and keeping things running smoothly. I find satisfaction in clean architecture, reproducible environments, and observability done right.</p>
+        <p>Hands-on experience with Linux administration, Github, Gitlab, Docker, Jenkins, CI/CD pipelines through personal projects.</p>
+        <p>Eager to contribute to a team where <span class="accent mono">reliability</span> and <span class="accent-2 mono">continuous improvement</span> matter — and to keep learning every day.</p>
+      </div>
+      <div class="terminal reveal">
+        <div class="term-head">
+          <span class="d r"></span><span class="d y"></span><span class="d g"></span>
+          <span class="name">nguyen@portfolio:~</span>
+        </div>
+        <div class="term-body">
+          <div><span class="p">$</span> <span class="c">cat</span> profile.json</div>
+          <div>{</div>
+          <div>&nbsp;&nbsp;<span class="c">"role"</span>: <span class="o">"IT / DevOps"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="c">"level"</span>: <span class="o">"fresher"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="c">"focus"</span>: [<span class="o">"linux"</span>, <span class="o">"docker"</span>, <span class="o">"ci/cd"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="c">"learning"</span>: [<span class="o">"kubernetes"</span>, <span class="o">"jenkins"</span>, <span class="o">"zabbix"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="c">"status"</span>: <span class="o">"open_to_work"</span></div>
+          <div>}</div>
+          <div><span class="p">$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="background:var(--bg-2)">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="label">02. skills</div>
+      <h2>./tech-stack</h2>
+      <p>Tools and technologies I use to build, deploy, and monitor systems.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-network-wired"></i> OS &amp; Networking</h3>
+        <div class="badges">
+          <span class="badge">Linux (Ubuntu)</span><span class="badge">CCNA</span>
+          <span class="badge">Windows Server</span><span class="badge">TCP/IP</span>
+          <span class="badge">DNS</span><span class="badge">DHCP</span><span class="badge">VPN</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3><i class="fa-brands fa-docker"></i> DevOps &amp; Cloud</h3>
+        <div class="badges">
+          <span class="badge">Docker</span><span class="badge">Docker Compose</span>
+          <span class="badge">Git / GitHub</span><span class="badge">GitLab & Jenkins CI/CD</span>
+          <span class="badge">AWS (EC2, S3)</span><span class="badge">Nginx</span>
+          <span class="badge">Kubernetes (basic)</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-chart-line"></i> Monitoring &amp; Tools</h3>
+        <div class="badges">
+          <span class="badge">Grafana</span><span class="badge">Prometheus</span>
+          <span class="badge">Zabbix</span><span class="badge">Bash</span>
+          <span class="badge">PowerShell</span><span class="badge">VS Code</span>
+          <span class="badge">Postman</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+        <div class="badges">
+          <span class="badge">Python — scripting</span>
+          <span class="badge">SQL — basic</span>
+          <span class="badge">HTML / CSS — basic</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE & PROJECTS -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="label">03. experience</div>
+      <h2>./work-history</h2>
+    </div>
+    <div class="timeline" style="margin-bottom:60px">
+      <div class="t-item reveal">
+        <div class="t-card">
+          <div class="t-meta">Nov 2024 — Feb 2025 · 3 months</div>
+          <h3>IT Support Intern</h3>
+          <div class="where">DCNET Telecom · Ho Chi Minh City</div>
+          <ul>
+            <li>Researched <span class="accent mono">FreeRADIUS</span> and <span class="accent mono">RADIUSDesk</span> for network authentication systems.</li>
+            <li>Implemented internal network user authentication using <span class="accent mono">IEEE 802.1X</span>.</li>
+            <li>Deployed Captive Portal solutions for internal Wi-Fi networks on <span class="accent mono">MikroTik routers</span>, <span class="accent mono">UniFi APs</span>, and <span class="accent mono">TP-Link APs</span>.</li>
+            <li>Assisted in troubleshooting and supporting computer software and hardware issues.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head reveal">
+      <div class="label">04. projects</div>
+      <h2>./recent-projects</h2>
+    </div>
+    <div class="projects-grid">
+
+  <!-- Project 1 -->
+  <div class="proj reveal">
+    <div class="proj-head">
+      <i class="fa-solid fa-shield-halved"></i>
+      <div class="links">
+        <a href="https://neyugniat.hashnode.dev/homelab-monitoring-and-security-stack" target="_blank" aria-label="Project Blog">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <h3>Security &amp; Monitoring Homelab</h3>
+
+    <p class="proj-date mono accent-2">Personal Project • Jan 2026</p>
+
+    <p>
+      Researched and implemented infrastructure monitoring and security systems
+      using Prometheus, Grafana, Wazuh, pfSense, and Suricata in a personal lab
+      environment. Practiced SIEM concepts, endpoint security, IDS/IPS deployment,
+      firewall configuration, and simulated attack scenarios using Kali Linux.
+    </p>
+
+    <div class="tech">
+      <span>Prometheus</span>
+      <span>Grafana</span>
+      <span>Wazuh</span>
+      <span>pfSense</span>
+      <span>Suricata</span>
+      <span>Kali Linux</span>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="proj reveal">
+    <div class="proj-head">
+      <i class="fa-solid fa-network-wired"></i>
+      <div class="links">
+        <a href="https://neyugniat.hashnode.dev/dynamic-vlans-with-radius" target="_blank" aria-label="Project Blog">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+
+    <h3>Dynamic VLAN with RADIUS</h3>
+
+    <p class="proj-date mono accent-2">Personal Project • Oct 2024</p>
+
+    <p>
+      Implemented dynamic VLAN assignment with port-based authentication using
+      RADIUS on Windows Server 2019. Configured AD DS, DHCP, NPS, and VLAN-based
+      policies to automatically assign network access based on authenticated users.
+    </p>
+
+    <div class="tech">
+      <span>Windows Server 2019</span>
+      <span>RADIUS</span>
+      <span>NPS</span>
+      <span>AD DS</span>
+      <span>DHCP</span>
+      <span>Networking</span>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="proj reveal">
+    <div class="proj-head">
+      <i class="fa-solid fa-code-branch"></i>
+      <div class="links">
+        <a href="#" aria-label="Coming Soon">
+          <i class="fa-solid fa-hourglass-half"></i>
+        </a>
+      </div>
+    </div>
+
+    <h3>CI/CD &amp; Infrastructure Automation</h3>
+
+    <p class="proj-date mono accent-2">In Progress</p>
+
+    <p>
+      Currently building an automated CI/CD and infrastructure deployment workflow
+      using containerization, automation tools, and monitoring integrations in a
+      personal lab environment.
+    </p>
+
+    <div class="tech">
+      <span>Docker</span>
+      <span>GitHub Actions</span>
+      <span>Linux</span>
+      <span>Nginx</span>
+      <span>Automation</span>
+    </div>
+  </div>
+
+</div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" style="background:var(--bg-2)">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="label">05. education</div>
+      <h2>./credentials</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <h3>Bachelor of Information Security</h3>
+        <div class="sub">Academy of Cryptographic Techniques, Ho Chi Minh City</div>
+        <p style="color:#cdd6df;font-size:14px">Graduated: <span class="mono accent">Sep 2025</span> &nbsp;·&nbsp; GPA: <span class="mono accent">3.53 / 4.0</span></p>
+        <p style="color:var(--muted);font-size:13px;margin-top:10px">Coursework: Operating Systems, Computer Networks, Database Systems, System Administration, Cloud Computing.</p>
+      </div>
+      <div class="edu-card reveal">
+        <h3>Certifications</h3>
+        <div class="sub" style="margin-bottom:14px">Building credentials, one at a time</div>
+        <div class="cert-list">
+          <div class="cert">
+            <div class="name"><i class="fa-solid fa-certificate"></i> 740 L&R TOEIC Certificate</div>
+            <span class="status s-done">Completed</span>
+          </div>
+          <div class="cert">
+            <div class="name"><i class="fa-solid fa-certificate"></i> DevOps For Fresher</div>
+            <span class="status s-done">Completed</span>
+          </div>
+          <div class="cert">
+            <div class="name"><i class="fa-brands fa-aws"></i> AWS Cloud Practitioner</div>
+            <span class="status s-plan">Planned Q1 2027</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="label">06. contact</div>
+      <h2>./get-in-touch</h2>
+      <p>I'm actively looking for my first full-time role. If you think there's a fit, I'd love to chat.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3><span class="accent mono">$</span> contact --info</h3>
+        <div class="row"><i class="fa-solid fa-envelope"></i><a href="mailto:nguyentainguyen16072003@email.com">nguyentainguyen16072003@email.com</a></div>
+        <div class="row"><i class="fa-solid fa-phone"></i><span>+84 967 660 703</span></div>
+        <div class="row"><i class="fa-solid fa-location-dot"></i><span>Ho Chi Minh City, Vietnam</span></div>
+        <div class="row"><i class="fa-solid fa-clock"></i><span>Response within 24h</span></div>
+        <div class="socials">
+          <a href="https://github.com/neyugniat" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/neyugniat16072003" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:nguyentainguyen16072003@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <form class="reveal" onsubmit="event.preventDefault(); alert('This is a demo form — please email nguyentainguyen16072003@email.com directly.');">
+        <div class="field">
+          <label>name <span class="req">*</span></label>
+          <input type="text" required placeholder="Your name"/>
+        </div>
+        <div class="field">
+          <label>email <span class="req">*</span></label>
+          <input type="email" required placeholder="you@company.com"/>
+        </div>
+        <div class="field">
+          <label>message <span class="req">*</span></label>
+          <textarea required placeholder="Tell me about the role or opportunity..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center"><i class="fa-solid fa-paper-plane"></i> Send message</button>
+        <p class="form-note">// or email me directly at <a href="mailto:nguyentainguyen16072003@email.com">nguyentainguyen16072003@email.com</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span class="accent">$</span> echo "Built with care by Nguyen Tai Nguyen · © 2026" <span class="cursor"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
